@@ -9,6 +9,7 @@ from datetime import timedelta
 input_sam=sys.argv[1]
 fastqfile=sys.argv[2]
 species_name=sys.argv[3]
+
 #my_dict : MSPname:[gene1,gene2,gene34,gene11234]
 my_dict={}
 #my_dict2 : gene1 : 123 gene2 : 441 gene4 :1123
