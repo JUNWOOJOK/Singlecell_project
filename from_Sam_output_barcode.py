@@ -5,7 +5,6 @@ import sys
 import gzip
 import time
 from datetime import timedelta
-
 input_sam=sys.argv[1]
 fastqfile=sys.argv[2]
 species_name=sys.argv[3]
