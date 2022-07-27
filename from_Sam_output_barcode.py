@@ -25,7 +25,6 @@ igc_species_name=aaa.columns
 for i in igc_species_name:
 	my_dict[i.strip()]=np.unique(aaa[i].astype('Int32').dropna().tolist()).tolist()
 
-
 with open(input_sam) as file:
 	for i in file:
 		if i.startswith('@'):
