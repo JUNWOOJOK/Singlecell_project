@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 import sys
-import sys
 import gzip
 import time
 from datetime import timedelta
